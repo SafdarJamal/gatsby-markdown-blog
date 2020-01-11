@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-bootcamp-blog",
+  "name": "gatsby-markdown-blog",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "A minimal Gatsby starter template for creating a blog with markdown.",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -30,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SafdarJamal/gatsby-bootcamp-blog"
+    "url": "https://github.com/SafdarJamal/gatsby-markdown-blog"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
