@@ -1,7 +1,7 @@
 {
   "name": "gatsby-markdown-blog",
   "private": true,
-  "description": "A minimal Gatsby starter template for creating a blog with markdown.",
+  "description": "A minimal blogging site built with Gatsby using Markdown and hosted on Netlify.",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
