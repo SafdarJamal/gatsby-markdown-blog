@@ -16,17 +16,15 @@ export const query = graphql`
   }
 `;
 
-const Blog = props => {
+const BlogPost = ({ data }) => {
   return (
     <Layout>
-      <Head title={props.data.markdownRemark.frontmatter.title} />
-      <h1>{props.data.markdownRemark.frontmatter.title}</h1>
-      <p>{props.data.markdownRemark.frontmatter.date}</p>
-      <div
-        dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}
-      ></div>
+      <Head title={data.markdownRemark.frontmatter.title} />
+      <h1>{data.markdownRemark.frontmatter.title}</h1>
+      <p>Published on {data.markdownRemark.frontmatter.date}</p>
+      <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}></div>
     </Layout>
   );
 };
 
-export default Blog;
+export default BlogPost;
