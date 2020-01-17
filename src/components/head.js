@@ -8,12 +8,21 @@ const Head = ({ title }) => {
       site {
         siteMetadata {
           title
+          description
         }
       }
     }
   `);
 
-  return <Helmet title={`${title} | ${data.site.siteMetadata.title}`} />;
+  return (
+    <Helmet
+      htmlAttributes={{ lang: 'en' }}
+      title={`${title} | ${data.site.siteMetadata.title}`}
+      meta={[
+        { name: 'description', content: data.site.siteMetadata.description },
+      ]}
+    />
+  );
 };
 
 export default Head;

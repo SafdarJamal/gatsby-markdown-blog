@@ -4,8 +4,10 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: 'Full-Stack Bootcamp;',
     author: 'Safdar Jamal',
+    title: 'Full-Stack Bootcamp;',
+    description:
+      'A minimal blogging site built with Gatsby using Markdown and hosted on Netlify.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
