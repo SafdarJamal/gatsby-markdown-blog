@@ -2,7 +2,7 @@
   "name": "gatsby-markdown-blog",
   "private": true,
   "description": "A minimal blogging site built with Gatsby using Markdown and hosted on Netlify.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
