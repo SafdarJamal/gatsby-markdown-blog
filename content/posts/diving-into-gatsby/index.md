@@ -1,5 +1,5 @@
 ---
-title: 'Gatsby'
+title: 'Diving into Gatsby'
 date: '2020-01-10'
 ---
 
