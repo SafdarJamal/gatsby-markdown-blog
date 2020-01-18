@@ -1,6 +1,6 @@
 ---
 title: 'Gatsby'
-date: '10-01-2020'
+date: '2020-01-10'
 ---
 
 ![Gatsby](./gatsby.png)
