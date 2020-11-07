@@ -17,15 +17,14 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <p>
-        Created by{' '}
+        &copy; 2020{' '}
         <a
           href="https://safdarjamal.github.io"
           target="_blank"
           rel="noopener noreferrer"
         >
           {data.site.siteMetadata.author}
-        </a>{' '}
-        © 2020
+        </a>
       </p>
     </footer>
   );
