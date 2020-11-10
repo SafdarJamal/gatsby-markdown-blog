@@ -16,13 +16,20 @@ export const query = graphql`
   }
 `;
 
-const BlogPost = ({ data }) => {
+const BlogPost = ({
+  data: {
+    markdownRemark: {
+      frontmatter: { title, date },
+      html,
+    },
+  },
+}) => {
   return (
     <Layout>
-      <SEO title={data.markdownRemark.frontmatter.title} />
-      <h1>{data.markdownRemark.frontmatter.title}</h1>
-      <p>Published on {data.markdownRemark.frontmatter.date}</p>
-      <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}></div>
+      <SEO title={title} />
+      <h1>{title}</h1>
+      <p>Published on {date}</p>
+      <div dangerouslySetInnerHTML={{ __html: html }}></div>
     </Layout>
   );
 };
