@@ -1,12 +1,12 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import Head from '../components/Head';
+import SEO from '../components/SEO';
 
 const Contact = () => {
   return (
     <Layout>
-      <Head title="Contact" />
+      <SEO title="Contact" />
       <h1>Contact</h1>
       <p>
         The best way to reach me is via{' '}

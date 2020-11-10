@@ -2,8 +2,10 @@ import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { Helmet } from 'react-helmet';
 
-const Head = ({ title, description }) => {
-  const data = useStaticQuery(graphql`
+const SEO = ({ title: customTitle, description: customDescription }) => {
+  const {
+    site: { siteMetadata },
+  } = useStaticQuery(graphql`
     query {
       site {
         siteMetadata {
@@ -17,17 +19,17 @@ const Head = ({ title, description }) => {
   return (
     <Helmet
       htmlAttributes={{ lang: 'en' }}
-      defaultTitle={data.site.siteMetadata.title}
-      title={title}
-      titleTemplate={`%s | ${data.site.siteMetadata.title}`}
+      defaultTitle={siteMetadata.title}
+      title={customTitle}
+      titleTemplate={`%s | ${siteMetadata.title}`}
       meta={[
         {
           name: 'description',
-          content: description || data.site.siteMetadata.description,
+          content: customDescription || siteMetadata.description,
         },
       ]}
     />
   );
 };
 
-export default Head;
+export default SEO;
