@@ -4,7 +4,9 @@ import { Helmet } from 'react-helmet';
 
 const SEO = ({ title: customTitle, description: customDescription }) => {
   const {
-    site: { siteMetadata },
+    site: {
+      siteMetadata: { title, description },
+    },
   } = useStaticQuery(graphql`
     query {
       site {
@@ -19,13 +21,13 @@ const SEO = ({ title: customTitle, description: customDescription }) => {
   return (
     <Helmet
       htmlAttributes={{ lang: 'en' }}
-      defaultTitle={siteMetadata.title}
+      defaultTitle={title}
       title={customTitle}
-      titleTemplate={`%s | ${siteMetadata.title}`}
+      titleTemplate={`%s | ${title}`}
       meta={[
         {
           name: 'description',
-          content: customDescription || siteMetadata.description,
+          content: customDescription || description,
         },
       ]}
     />
