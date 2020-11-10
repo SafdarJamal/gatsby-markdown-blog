@@ -18,7 +18,7 @@ const Header = () => {
     <header className={styles.header}>
       <h1>
         <Link className={styles.title} to="/">
-          {data.site.siteMetadata.title}
+          {data.site.siteMetadata.title};
         </Link>
       </h1>
       <nav>

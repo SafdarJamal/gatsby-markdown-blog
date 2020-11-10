@@ -1,19 +1,8 @@
 import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
 
 import styles from './style.module.scss';
 
 const Footer = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      site {
-        siteMetadata {
-          author
-        }
-      }
-    }
-  `);
-
   return (
     <footer className={styles.footer}>
       <p>
@@ -23,7 +12,7 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {data.site.siteMetadata.author}
+          Safdar Jamal
         </a>
       </p>
     </footer>
