@@ -4,6 +4,10 @@
   "description": "A minimal blogging site built with Gatsby using Markdown and hosted on Netlify.",
   "version": "1.2.0",
   "license": "MIT",
+  "author": {
+    "name": "Safdar Jamal",
+    "url": "https://safdarjamal.github.io"
+  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
