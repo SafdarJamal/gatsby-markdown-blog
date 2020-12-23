@@ -18,21 +18,21 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "gatsby": "^2.19.17",
-    "gatsby-plugin-react-helmet": "^3.1.22",
-    "gatsby-plugin-sass": "^2.1.28",
-    "gatsby-plugin-sharp": "^2.4.5",
-    "gatsby-remark-images": "^3.1.44",
-    "gatsby-remark-relative-images": "^0.2.3",
-    "gatsby-source-filesystem": "^2.1.48",
-    "gatsby-transformer-remark": "^2.6.51",
-    "node-sass": "^4.13.0",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1"
+    "gatsby": "^2.29.1",
+    "gatsby-plugin-react-helmet": "^3.7.0",
+    "gatsby-plugin-sass": "^2.8.0",
+    "gatsby-plugin-sharp": "^2.11.1",
+    "gatsby-remark-images": "^3.8.0",
+    "gatsby-remark-relative-images": "^2.0.2",
+    "gatsby-source-filesystem": "^2.8.0",
+    "gatsby-transformer-remark": "^2.13.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "sass": "^1.30.0"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "prettier": "^2.2.1"
   },
   "repository": {
     "type": "git",
