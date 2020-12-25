@@ -20,7 +20,7 @@
 - Uses Sass for styling
 - Minimal responsive design - made to customize or tear apart
 - Blazing fast loading times thanks to pre-rendered HTML and automatic chunk loading of JS files
-  Separate components for everything
+- Separate components for everything
 - Perfect score on Lighthouse for SEO, Accessibility, and Performance
 
 ## Prerequisites
