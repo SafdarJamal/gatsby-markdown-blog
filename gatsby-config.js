@@ -1,15 +1,10 @@
-require('dotenv').config({
-  path: `.env.${process.env.NODE_ENV}`,
-});
-
 module.exports = {
   siteMetadata: {
     title: 'Safdar Jamal',
     description:
-      'A minimal blogging site built with Gatsby using Markdown and hosted on Netlify.',
+      'A minimal starter template for building personal/blogging websites with Gatsby, Markdown, and Netlify.',
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -17,6 +12,7 @@ module.exports = {
         path: `${__dirname}/content/posts`,
       },
     },
+    'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     'gatsby-plugin-sharp',
     {

@@ -8,7 +8,9 @@
   </a>
 </h1>
 
-Kick off your project with this blog boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+<p align="center">
+  A minimal starter template for building personal/blogging websites with Gatsby, Markdown, and Netlify.
+</p>
 
 ## Features
 
@@ -16,7 +18,7 @@ Kick off your project with this blog boilerplate. This starter ships with the ma
 - Editable Pages: Landing, About, Blog and Contact page
 - Includes React Helmet to allow editing site meta tags
 - Uses Sass for styling
-- Minimal responsive design
+- Minimal responsive design - made to customize or tear apart
 - Blazing fast loading times thanks to pre-rendered HTML and automatic chunk loading of JS files
   Separate components for everything
 - Perfect score on Lighthouse for SEO, Accessibility, and Performance
