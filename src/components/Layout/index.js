@@ -1,9 +1,8 @@
 import React from 'react';
+import styles from './style.module.scss';
 
 import Header from '../Header';
 import Footer from '../Footer';
-import '../../styles/index.scss';
-import styles from './style.module.scss';
 
 const Layout = ({ children }) => {
   return (
