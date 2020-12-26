@@ -9,9 +9,12 @@ const About = () => {
     <Layout>
       <SEO title="About" />
       <h1>About</h1>
-      <p>I'm currently working on passion projects.</p>
       <p>
-        <Link to="/contact">Want to work with me? Reach out.</Link>
+        I'm currently working on passion projects, and I'm open to new
+        opportunities.
+      </p>
+      <p>
+        <Link to="/contact/">Want to work with me? Reach out.</Link>
       </p>
     </Layout>
   );
