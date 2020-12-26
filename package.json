@@ -2,7 +2,7 @@
   "name": "gatsby-markdown-blog",
   "private": true,
   "description": "A minimal starter template for building personal/blogging websites with Gatsby, Markdown, and Netlify.",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "license": "MIT",
   "author": {
     "name": "Safdar Jamal",
