@@ -1,9 +1,9 @@
 import React from 'react';
 import { useStaticQuery, graphql, Link } from 'gatsby';
+import styles from './blog.module.scss';
 
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
-import styles from './blog.module.scss';
 
 const Blog = () => {
   const {
